@@ -1,0 +1,23 @@
+name: sorting_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pandas=2.2.2
+  - matplotlib=3.7.2
+  - seaborn=0.12.2
+  - opencv=4.8.0
+  - cma
+  - pip
+  - ipywidgets
+  - pip:
+      - torch==2.2.0
+      - gymnasium==0.29.1
+      - yacs
+      - tqdm
+      - pyyaml
+      - pillow
+      - imitation==1.0.1
