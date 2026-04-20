@@ -1,4 +1,4 @@
-# Evolutionary Warm-Starts for Reinforcement Learning in Industrial Continuous Control
+# Evolutionary Warm-Starts for Reinforcement Learning in Industrial Continuous Control ⚙️🤖
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![Code Style: autopep8](https://img.shields.io/badge/code%20style-autopep8-lightgrey)](https://pypi.org/project/autopep8/)
@@ -65,7 +65,6 @@ To set up the environment locally, follow these steps:
 
 ```bash
 git clone <repository-url>
-cd ES-RL-Refactored
 
 # Create and activate the conda environment
 conda env create -f environment.yaml -n industrial_es_rl
